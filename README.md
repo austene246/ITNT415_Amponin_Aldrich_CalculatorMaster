@@ -27,4 +27,5 @@ Each feature branch was merged into `main` via a reviewed Pull Request.
 - Clear function definitions per operation
 
 ## Sample Execution Screenshot
-*(insert screenshot of the program running here)*
+*(Screenshots/Addition_Calculator.png
+)*
