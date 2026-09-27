@@ -1,30 +1,22 @@
 # Calculator Master
 
-**Student Name:** Aldrich Amponin
-**Course and Section:** ITNT415 — *(BIT41)*
+Aldrich Amponin
+ITNT415 — BIT41
 
-## Project Description
-A menu-driven Python calculator built to demonstrate Git branching, GitHub
-repository management, Pull Requests, and merge workflows. The final
-version integrates addition, subtraction, multiplication, and division
-into a single application, with input validation and division-by-zero
-handling.
+Simple menu-driven calculator made in Python for a Git/GitHub branching assignment. Each operation was built on its own branch and merged into main through a Pull Request.
 
-## Branch Structure
-- `main` — integrated final calculator
-- `addition_Amponin` — addition feature
-- `subtraction_Amponin` — subtraction feature
-- `multiplication_Amponin` — multiplication feature
-- `division_Amponin` — division feature
+## Branches
+- main – final calculator
+- addition_Amponin
+- subtraction_Amponin
+- multiplication_Amponin
+- division_Amponin
 
-Each feature branch was merged into `main` via a reviewed Pull Request.
+## Features
+- Add, subtract, multiply, divide
+- Keeps running until you choose Exit
+- Rejects non-numeric input
+- Handles division by zero
 
-## Program Features
-- Menu-driven interface (Add / Subtract / Multiply / Divide / Exit)
-- Runs continuously until the user selects Exit
-- Input validation (rejects non-numeric input, invalid menu choices)
-- Division-by-zero handling
-- Clear function definitions per operation
-
-## Sample Execution Screenshot
+## Sample Run
 ![Sample run](Screenshots/Addition_Calculator.png)
