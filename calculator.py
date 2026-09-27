@@ -13,7 +13,7 @@ def subtract(a, b):
 
 def multiply(a, b):
     return a * b
-
+# raises an error instead of crashing
 def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
