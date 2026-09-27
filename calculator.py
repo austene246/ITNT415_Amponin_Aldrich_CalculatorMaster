@@ -37,6 +37,7 @@ def main():
             print(f"Result: {num1} + {num2} = {result}\n")
         elif choice == "2":
             result = subtract(num1, num2)
+            # rounds to 2 decimal places
             result = round(result, 2)
             print(f"Result: {num1} - {num2} = {result}\n")
         else:
