@@ -10,6 +10,9 @@ def add(a, b):
 
 def subtract(a, b):
     return a - b
+# multiplies two numbers
+def multiply(a, b):
+    return a * b
 
 def show_menu():
     print("\n===== Calculator Master =====")
@@ -40,6 +43,10 @@ def main():
             # rounds to 2 decimal places
             result = round(result, 2)
             print(f"Result: {num1} - {num2} = {result}\n")
+        elif choice == "3":
+            result = multiply(num1, num2)
+            result = round(result, 2)
+            print(f"Result: {num1} * {num2} = {result}\n")
         else:
             print("Operation not yet implemented.\n")
 
