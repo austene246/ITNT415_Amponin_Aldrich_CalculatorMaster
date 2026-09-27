@@ -30,6 +30,7 @@ def main():
         num2 = get_number("Enter second number: ")
         if choice == "1":
             result = add(num1, num2)
+            result = round(result, 2)
             print(f"Result: {num1} + {num2} = {result}\n")
         else:
             print("Operation not yet implemented.\n")
