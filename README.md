@@ -27,5 +27,4 @@ Each feature branch was merged into `main` via a reviewed Pull Request.
 - Clear function definitions per operation
 
 ## Sample Execution Screenshot
-*(Screenshots/Addition_Calculator.png
-)*
+![Sample run](Screenshots/Addition_Calculator.png)
